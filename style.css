@@ -1,0 +1,70 @@
+.title {
+    font-family: 'Bad Script', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    color: #910b23;
+}
+
+.word-wrap-unit {
+    margin-right: 1em;
+}
+
+.message {
+    line-height: 1.6;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.name,
+.heading {
+    font-weight: 700;
+    font-size: x-large;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.detail {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.ring {
+    width: 40px;
+}
+
+.time-list {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.divider {
+    flex-grow: 1;
+    border: 1px solid #910b23;
+    border-width: 0 0 1px;
+}
+
+.heart {
+    color: #910b23;
+}
+
+.time {
+    margin-left: 8px;
+}
+
+.time:first {
+    margin-bottom: 8px;
+}
+
+body {
+    background-color: #f1d5da;
+    color: #405045;
+}
+
+.illustration {
+    width: 100%;
+}
+
+.detail > dd {
+    margin-bottom: 8px;
+}
