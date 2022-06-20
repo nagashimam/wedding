@@ -60,6 +60,7 @@
             <address>
                 <iframe
                     title="式場のGoogle Map"
+                    id="google-map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5542507745427!2d106.63524801531516!3d10.768795892326697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e99047e88fb%3A0x1cfc9a1e105d9708!2sThuy%20ta%20Dam%20Sen%20Restaurant!5e0!3m2!1sja!2sjp!4v1653149198484!5m2!1sja!2sjp"
                     width="414"
                     height="450"
@@ -69,19 +70,13 @@
                     referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
             </address>
-            <img class="illustration" src="assets/夫婦.png" alt="" />
+            <img
+                id="couple"
+                class="illustration"
+                src="assets/夫婦.png"
+                alt=""
+            />
         </main>
-        <script>
-            const urlParams = new URLSearchParams(window.location.search);
-            const setName = (id) => {
-                const name = urlParams.get(id);
-                console.log(name);
-                const nameHtml = document.getElementById(id);
-                nameHtml.innerText = name;
-            };
-
-            setName('familyName');
-            setName('givenName');
-        </script>
+        <script src="./scripts/script.js"></script>
     </body>
 </html>

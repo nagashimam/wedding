@@ -59,6 +59,10 @@
 body {
     background-color: #f1d5da;
     color: #405045;
+    width: 100%;
+    max-width: 816px;
+    margin: 0 auto;
+    padding: 16px;
 }
 
 .illustration {
