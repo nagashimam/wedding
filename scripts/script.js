@@ -24,3 +24,4 @@ const resize = () => {
 };
 
 window.onresize = resize;
+resize();
